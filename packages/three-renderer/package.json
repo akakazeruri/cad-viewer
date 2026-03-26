@@ -45,6 +45,7 @@
     "@mlightcad/data-model": "workspace:*",
     "@mlightcad/mtext-renderer": "^0.10.7",
     "@velipso/polybool": "^1.1.1",
+    "occt": "workspace:*",
     "three": "^0.172.0"
   }
 }

@@ -107,6 +107,9 @@ importers:
       mitt:
         specifier: ^3.0.1
         version: 3.0.1
+      occt:
+        specifier: workspace:*
+        version: link:../occt
       rbush:
         specifier: ^4.0.1
         version: 4.0.1
@@ -147,6 +150,9 @@ importers:
       '@mlightcad/data-model':
         specifier: workspace:*
         version: link:../realdwg-web/packages/data-model
+      occt:
+        specifier: workspace:*
+        version: link:../occt
 
   packages/cad-viewer:
     dependencies:
@@ -275,6 +281,8 @@ importers:
       serve:
         specifier: ^14.2.4
         version: 14.2.4
+
+  packages/occt: {}
 
   packages/realdwg-web:
     devDependencies:
@@ -457,6 +465,9 @@ importers:
       '@velipso/polybool':
         specifier: ^1.1.1
         version: 1.1.1
+      occt:
+        specifier: workspace:*
+        version: link:../occt
       three:
         specifier: ^0.172.0
         version: 0.172.0

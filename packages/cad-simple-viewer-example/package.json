@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@mlightcad/cad-simple-viewer": "workspace:*",
-    "@mlightcad/data-model": "workspace:*"
+    "@mlightcad/data-model": "workspace:*",
+    "occt": "workspace:*"
   }
 }
