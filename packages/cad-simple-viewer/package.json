@@ -42,7 +42,6 @@
     "@mlightcad/mtext-input-box": "^0.2.3",
     "@mlightcad/mtext-renderer": "^0.10.7",
     "@mlightcad/svg-renderer": "workspace:*",
-    "@mlightcad/three-renderer": "workspace:*",
     "@mlightcad/three-viewcube": "0.0.9",
     "@types/lodash-es": "^4.17.12",
     "@types/rbush": "^3.0.4",
@@ -55,6 +54,7 @@
   },
   "peerDependencies": {
     "@mlightcad/data-model": "workspace:*",
+    "@mlightcad/three-renderer": "workspace:*",
     "occt": "workspace:*",
     "three": "^0.172.0",
     "lodash-es": "4.17.21"

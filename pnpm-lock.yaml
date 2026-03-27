@@ -101,6 +101,9 @@ importers:
       '@mlightcad/libredwg-converter':
         specifier: workspace:*
         version: link:../realdwg-web/packages/libredwg-converter
+      '@mlightcad/three-renderer':
+        specifier: workspace:*
+        version: link:../three-renderer
       lodash-es:
         specifier: 4.17.21
         version: 4.17.21
@@ -126,9 +129,6 @@ importers:
       '@mlightcad/svg-renderer':
         specifier: workspace:*
         version: link:../svg-renderer
-      '@mlightcad/three-renderer':
-        specifier: workspace:*
-        version: link:../three-renderer
       '@mlightcad/three-viewcube':
         specifier: 0.0.9
         version: 0.0.9(three@0.172.0)
